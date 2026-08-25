@@ -131,10 +131,12 @@ button { background: none; border: 0; cursor: pointer; }
 }
 
 .gnav__logo {
-  display: inline-flex; align-items: center; gap: 7px;
+  display: inline-flex; align-items: center; gap: 9px;
   font-size: 15px; font-weight: 600; letter-spacing: .02em;
 }
-.gnav__logo svg { flex: none; }
+
+/* R 심볼: currentColor 를 따라가므로 배경색에 맞춰 자동 반전 */
+.mark { height: 20px; width: auto; flex: none; }
 
 .gnav__nav { margin-left: auto; }
 .gnav__list { display: flex; align-items: center; gap: 26px; }
@@ -534,6 +536,15 @@ button { background: none; border: 0; cursor: pointer; }
   line-height: 1.5;
 }
 .foot__inner { max-width: var(--maxw); margin: 0 auto; }
+
+.foot__logo {
+  display: inline-flex; align-items: center; gap: 9px;
+  color: var(--ink);
+  font-size: 15px; font-weight: 600; letter-spacing: .02em;
+  margin-bottom: 24px;
+}
+.foot__logo .mark { height: 22px; }
+
 .foot__note {
   padding-bottom: 22px;
   border-bottom: 1px solid var(--line-soft);

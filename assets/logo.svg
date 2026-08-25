@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 70 630 620" role="img" aria-label="ROBONEX">
+  <g fill="none" stroke="currentColor" stroke-width="72" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M110 124 H540 A120 120 0 0 1 540 364 H330 L646 628"/>
+    <path d="M145 182 V656"/>
+  </g>
+  <circle cx="520" cy="250" r="44" fill="currentColor"/>
+</svg>
