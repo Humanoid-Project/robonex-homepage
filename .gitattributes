@@ -1,0 +1,10 @@
+# 워크플로의 run 블록이 CR 때문에 깨지지 않도록 항상 LF 로 저장
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.sh    text eol=lf
+
+# 웹 소스는 Git 이 텍스트로 정규화
+*.html  text
+*.css   text
+*.js    text
+*.svg   text
